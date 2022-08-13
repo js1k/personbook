@@ -72,6 +72,9 @@ arr.value[0] = {
             width: 33.333%;
             height: 40px;
             padding-left: 10px;
+            a{
+                text-decoration: none;
+            }
         }
     }
 }
