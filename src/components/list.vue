@@ -137,6 +137,31 @@ arr.value = [{
     href: 'http://www.baidu.com',
     date: '2022.08.14',
     type: '心路'
+},{
+    tit: '幂等 防抖',
+    href: 'http://www.baidu.com',
+    date: '2022.08.14',
+    type: '技术'
+},{
+    tit: '获取网络状态',
+    href: 'http://www.baidu.com',
+    date: '2022.08.14',
+    type: '技术'
+},{
+    tit: '协议',
+    href: 'http://www.baidu.com',
+    date: '2022.08.14',
+    type: '技术'
+},{
+    tit: 'chrome调试手段',
+    href: 'http://www.baidu.com',
+    date: '2022.08.14',
+    type: '技术'
+},{
+    tit: 'nodejs AK/SK',
+    href: 'http://www.baidu.com',
+    date: '2022.08.14',
+    type: '技术'
 }]
 
 </script>
