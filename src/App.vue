@@ -1,17 +1,24 @@
 <template>
-    <div class="lay-body">
-        <list />
-    </div>
+<div class="lay-body">
+    <router-view v-slot="{ Component }">
+        <keep-alive>
+            <component :is="Component"
+                       v-if="$route.meta?.keepAlive"></component>
+        </keep-alive>
+        <component :is="Component"
+                   v-if="!$route.meta?.keepAlive"></component>
+    </router-view>
+</div>
 </template>
 
 <script setup lang="ts">
     import list from './components/list.vue'
 </script>
 
-<style scoped lang="scss">
-.lay-body{
+<style lang="scss" scoped>
+.lay-body {
     height: 100%;
     // overflow: scroll;
-    padding-top: 60px;
+    // padding-top: 60px;
 }
 </style>
