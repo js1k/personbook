@@ -1,5 +1,5 @@
 <template>
-    <div class="css-bx">
+    <div class="txt-bx">
         <ul>
             <li>css 加载会不会阻塞 js 的加载？（不会）</li>
             <li>css 加载会不会阻塞 js 的执行？（会）</li>
@@ -58,8 +58,3 @@
         </ul>
     </div>
 </template>
-<style lang="scss">
-.css-bx{
-    padding: 40px 30px 50px;
-}
-</style>
