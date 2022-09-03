@@ -24,13 +24,13 @@ import { useRouter } from 'vue-router';
 const router = useRouter();
 let arr = ref([])
 arr.value = [
+    { tit: 'chrome调试及shell安装', href: './chromeDevice', type: '技术' },
     { tit: 'CSS JS阻塞', href: './css', type: 'js阻塞' },
     { tit: 'App link', href: './applink', type: 'Call app' },
     { tit: 'performance', href: './performance', type: '性能' },
     { tit: 'app缓存H5', href: './nativeCacheH5', type: 'H5优化' },
-    { tit: '302', href: './jump302', type: '功能' },
+    { tit: '302', href: './http302', type: '功能' },
     { tit: '405', href: './http405', type: '功能' },
-    { tit: 'chrome调试及shell安装', href: './chromeDevice', type: '技术' },
     { tit: 'js精度问题', href: './chromeDevice', type: '技术' },
     { tit: '1px上报', href: 'http://www.baidu.com', type: '上报' },
     { tit: 'userAgent', href: 'http://www.baidu.com', type: '浏览器' },
