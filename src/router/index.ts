@@ -6,7 +6,8 @@ import css from '../components/css.vue'
 import applink from '../components/applink.vue'
 import performance from '../components/performance.vue'
 import nativeCacheH5 from '../components/nativeCacheH5.vue'
-import jump302 from '../components/302.vue'
+import http302 from '../components/302.vue'
+import http405 from '../components/405.vue'
 import chromeDevice from '../components/chromeDevices.vue'
 
 const routes = [
@@ -16,7 +17,8 @@ const routes = [
     { path: '/applink', name: 'applink', component: applink },
     { path: '/performance', name: 'performance', component: performance },
     { path: '/nativeCacheH5', name: 'nativeCacheH5', component: nativeCacheH5 },
-    { path: '/jump302', name: 'jump302', component: jump302},
+    { path: '/http302', name: 'http302', component: http302},
+    { path: '/http405', name: 'http405', component: http405 },
     { path: '/chromeDevice', name: 'chromeDevice', component: chromeDevice }
 ]
 
